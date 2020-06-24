@@ -1,3 +1,7 @@
+:root{
+  --colorazul: #3FBEEA;
+  --colorrojo: #EF1D32;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ header{
 }
 header nav{
     margin-top: -100px !important;
-    background-color: #3fbeea;
+    background-color: var(--colorazul);
     text-align: center;
     z-index: 1000;
     width: 100%;
@@ -40,7 +44,7 @@ header nav ul li{
     position: relative;
 }
 header nav ul li:hover{
-    background: #e6344a;
+    background: var(--colorrojo);
     text-decoration: none;
     color: white;
 }
@@ -85,11 +89,11 @@ header nav ul li .children li{
   cursor: pointer;
 }
 nav img{
-  width: 100px;
+  width: 50px;
 }
 /* media queries */
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 890px){
     body{
         padding-top: 70px;
     }
@@ -98,7 +102,7 @@ nav img{
         min-width: 100%;
         position: fixed;
         top: 0;
-        background: #e6344a;
+        background: var(--colorrojo);
         z-index: 1000;
     }
     .menu_bar .btn-menu{
@@ -221,7 +225,8 @@ nav img{
 /* Frase */
 #frase{
     margin-top: 100px;
-    background-color: salmon;
+    background-color: var(--colorrojo);
+    color: white !important;
     width: 100%;
     height: auto;
     align-content: center;
@@ -235,21 +240,22 @@ nav img{
 /* autobiografía */
 #titulo{
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     margin-top: 20px;
-    background-color: crimson;
-    color: white;
+    background-color: var(--colorazul);
+    color: var(--colorrojo);
     padding: 15px;
     text-align: left;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 .texto{
-    background-color: salmon;
+    background-color: var(--colorrojo);
     width: 100%;
     height: auto;
     align-content: center;
     text-align: center;
-    color: black;
+    color: white;
     padding: 25px 30px;
     font-size: 18px;
 }
@@ -289,20 +295,31 @@ nav img{
 }
 .flip-card-back {
   padding-top: 20px;
-  background-color: salmon;
+  background-color: var(--colorazul);
   color: white;
   transform: rotateY(180deg);
 }
 .textperfil{
   margin-top: 35px;
 }
+/* Hobbies */
+.video {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.gif {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
 
 /* Habilidades */
 .tithabilidades{
-  margin-left: 15px;
+  margin: 15px 20px;
   margin-bottom: 50px;
   font-family: 'Roboto', sans-serif;
-  background-color: crimson;
+  background-color: var(--colorazul);
   color: white;
   width: 500px;
   text-align: center;
@@ -333,12 +350,12 @@ h3 {
 .textoformacion{
   float: left;
   margin: 10px 0px 0px 20px;
-  background-color: salmon;
+  background-color: var(--colorrojo);
   width: 100%;
   height: auto;
   align-content: center;
   text-align: center;
-  color: black;
+  color: white;
   padding: 25px 30px;
   font-size: 18px;
 }
@@ -391,8 +408,8 @@ h3 {
     line-height: 30px;
     text-align: center;
     background: none;
-    color: crimson;
-    opacity: 50%;
+    color: var(--colorrojo);
+    opacity: 70%;
     z-index: 900;
   }
   
@@ -416,7 +433,7 @@ h3 {
     text-align: center;
   }
   .carousel__indicadores .glider-dot {
-    background-color: crimson;
+    background-color: var(--colorazul);
     display: block;
     width: 30px;
     height: 4px;
@@ -426,12 +443,11 @@ h3 {
   
   .carousel__indicadores .glider-dot:hover {
     opacity: 1;
-    background-color: crimson;
+    background-color: var(--colorrojo);
   }
   
   .carousel__indicadores .glider-dot.active {
-    background-color: crimson;
-    border-color: crimson !important;
+    background-color: var(--colorrojo);
     opacity: 1;
   }
   
@@ -465,7 +481,7 @@ h3 {
 .titproyectos{
   margin-bottom: 40px;
   font-family: 'Roboto', sans-serif;
-  background-color: crimson;
+  background-color: var(--colorazul);
   float: center;
   color: white;
   width: 500px;
@@ -478,7 +494,7 @@ h3 {
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: salmon;
+  background: var(--colorazul);
   border: none;
   cursor: pointer;
   position: relative;
@@ -488,7 +504,7 @@ h3 {
   margin: 10px;
   width: 120px;
   height: 50px;
-  background: crimson;
+  background: var(--colorrojo);
   border: none;
   cursor: pointer;
   position: relative;
@@ -502,7 +518,7 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: crimson;
+  color: var(--colorrojo);
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -537,7 +553,7 @@ h3 {
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: salmon;
+  background: var(--colorazul);
   border: none;
   cursor: pointer;
   position: relative;
@@ -547,7 +563,7 @@ h3 {
   margin: 10px;
   width: 120px;
   height: 50px;
-  background: crimson;
+  background: var(--colorrojo);
   border: none;
   cursor: pointer;
   position: relative;
@@ -561,7 +577,7 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: crimson;
+  color: var(--colorrojo);
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -597,14 +613,12 @@ li, .listabtn{
 #carouselExampleCaptions {
   width: 40%;
   height: 8%;
-  padding-bottom: 28px;
-  margin-bottom: 50px;
   font-weight: 700;
-  background-color: crimson;
+  background-color: var(--colorazul);
   color: white;
 }
 .carousel-item h5{
-  margin-top: 25px;
+  padding-top: 10px;
 }
 /* Personales */
 .btnpersonales{
@@ -612,7 +626,7 @@ li, .listabtn{
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: salmon;
+  background: var(--colorazul);
   border: none;
   cursor: pointer;
   position: relative;
@@ -622,7 +636,7 @@ li, .listabtn{
   margin: 10px;
   width: 120px;
   height: 50px;
-  background: crimson;
+  background: var(--colorrojo);
   border: none;
   cursor: pointer;
   position: relative;
@@ -636,7 +650,7 @@ li, .listabtn{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: crimson;
+  color: var(--colorrojo);
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -677,7 +691,7 @@ li, .listabtn{
 #myBar {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -693,7 +707,7 @@ li, .listabtn{
 #myBar2 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -709,7 +723,7 @@ li, .listabtn{
 #myBar3 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -725,7 +739,7 @@ li, .listabtn{
 #myBar4 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -741,7 +755,7 @@ li, .listabtn{
 #myBar5 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -757,7 +771,7 @@ li, .listabtn{
 #myBar6 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -773,7 +787,7 @@ li, .listabtn{
 #myBar7 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -789,7 +803,7 @@ li, .listabtn{
 #myBar8 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -805,7 +819,7 @@ li, .listabtn{
 #myBar9 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -821,7 +835,7 @@ li, .listabtn{
 #myBar10 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -837,7 +851,7 @@ li, .listabtn{
 #myBar11 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -856,7 +870,7 @@ li, .listabtn{
 #myBar12 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -872,7 +886,7 @@ li, .listabtn{
 #myBar13 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -888,7 +902,7 @@ li, .listabtn{
 #myBar14 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -904,7 +918,7 @@ li, .listabtn{
 #myBar15 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -920,7 +934,7 @@ li, .listabtn{
 #myBar16 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -936,7 +950,7 @@ li, .listabtn{
 #myBar17 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -952,7 +966,7 @@ li, .listabtn{
 #myBar18 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -968,7 +982,7 @@ li, .listabtn{
 #myBar19 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -984,7 +998,7 @@ li, .listabtn{
 #myBar20 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -1000,7 +1014,7 @@ li, .listabtn{
 #myBar21 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -1016,7 +1030,7 @@ li, .listabtn{
 #myBar22 {
     width: 5%;
     height: 20px;
-    background-color: crimson;
+    background-color: var(--colorrojo);
     text-align: center;
     line-height: 20px;
     color: white;
@@ -1058,7 +1072,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-whatsapp:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
 }
 .social ul li .fa-facebook-f {
   background-color: #3b5998;
@@ -1067,7 +1081,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li .fa-facebook-f:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
 }
 .social ul li .fa-instagram {
   background-color: #dd2a7b;
@@ -1076,7 +1090,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-instagram:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
 }
 .social ul li .fa-twitter {
   background-color: #00acee;
@@ -1085,7 +1099,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-twitter:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
 }
 .social ul li .fa-pinterest-p {
   background-color: #bd081c;
@@ -1094,13 +1108,13 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-pinterest-p:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
 }
 .social ul li a:hover{
   padding: 0px 20px 0px 0px;
 }
 footer{
-  background-color: salmon;
+  background-color: var(--colorrojo);
   text-align: center;
   color: white;
   padding-top: 50px;
@@ -1115,17 +1129,17 @@ footer div a:hover{
   color: white;
 }
 .input{
-  padding: 50px;
+  padding: 50px 80px;
 }
 .btnformulario{
   padding: 5px 10px;
-  color: crimson;
+  color: var(--colorrojo);
   border: none;
   border-radius: 5px;
-  background-color: rgb(250, 45, 86);
+  background-color: var(--colorazul);
   color: white;
 }
 .btnformulario:hover{
-  background-color: crimson;
+  background-color: var(--colorrojo);
   color: white;
 }
