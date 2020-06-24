@@ -1108,3 +1108,13 @@ footer div a{
 footer div a:hover{
   color: white;
 }
+.input{
+  padding: 50px;
+}
+.input .btn .btn-primary{
+  background-color: salmon;
+  color: white;
+}
+.input .btn .btn-primary:hover{
+  background-color: crimson ;
+}
