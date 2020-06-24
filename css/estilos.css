@@ -24,7 +24,7 @@ header{
 }
 header nav{
     margin-top: -100px !important;
-    background-color: #023859;
+    background-color: #3fbeea;
     text-align: center;
     z-index: 1000;
     width: 100%;
@@ -84,9 +84,12 @@ header nav ul li .children li{
   color: white;
   cursor: pointer;
 }
+nav img{
+  width: 100px;
+}
 /* media queries */
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 930px){
     body{
         padding-top: 70px;
     }
@@ -141,6 +144,9 @@ header nav ul li .children li{
     }
     header nav ul li .children li a{
         margin-left: 20px;
+    }
+    nav img{
+      display: none;
     }
     div article p #frase{
       margin-top: 20px;
