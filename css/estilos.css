@@ -193,7 +193,7 @@ nav img{
     width: 100% !important;
   }
   .flip-card{
-    width: 70% !important;
+    width: 90% !important;
   }
 }
 @keyframes h3{
@@ -418,11 +418,11 @@ h3 {
   }
   
   .carousel__anterior {
-    left: -35px;
+    left: -230px;
   }
   
   .carousel__siguiente {
-    right: -35px;
+    right: -230px;
   }
   
   .carousel__lista {

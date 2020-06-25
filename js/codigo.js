@@ -486,27 +486,27 @@ window.addEventListener('load', function(){
 		responsive: [
 			{
 			  // pantallas mayores >= 800px
-			  breakpoint: 800,
+			  breakpoint: 300,
 			  settings: {
 				// cantidad de imagenes en el carousel
-				slidesToShow: 2,
-				slidesToScroll: 2
+				slidesToShow: 1,
+				slidesToScroll: 1
 			  }
 			},{
 			  // pantallas mayores >= 1024px
-			  breakpoint: 1024,
+			  breakpoint: 800,
 			  settings: {
         // cantidad de imagenes en en carousel
-				slidesToShow: 3,
-				slidesToScroll: 3
+				slidesToShow: 2,
+				slidesToScroll: 2
 			  }
 			},{
 			  // pantallas mayores >= 1330px
 			  breakpoint: 1430,
 			  settings: {
         // cantidad de imagenes en en carousel
-				slidesToShow: 4,
-				slidesToScroll: 4
+				slidesToShow: 3,
+				slidesToScroll: 3
 			  }
 			}
 		]
