@@ -512,6 +512,7 @@ window.addEventListener('load', function(){
 		]
 	});
 });
+
 // formulario
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -532,3 +533,7 @@ window.addEventListener('load', function(){
     });
   }, false);
 })();
+// btn enviar
+function myFunction() {
+  alert("Tu mensaje ha sido enviado");
+}

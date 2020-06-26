@@ -1,6 +1,7 @@
 :root{
   --colorazul: #3FBEEA;
   --colorrojo: #EF1D32;
+  --font-family: 'Roboto', sans-serif;
 }
 *{
     margin: 0;
@@ -392,7 +393,7 @@ h3 {
     line-height: 30px;
     color: black;
   }
-  /* --- --- carousel --- --- */
+  /* Carousel que hago */
   .carousel__contenedor {
     position: relative;
   }
@@ -418,15 +419,21 @@ h3 {
   }
   
   .carousel__anterior {
-    left: -230px;
+    left: -25px;
+    font-size: 30px;
   }
   
   .carousel__siguiente {
-    right: -230px;
+    right: -25px;
+    font-size: 30px;
   }
   
   .carousel__lista {
     overflow: hidden;
+  }
+
+  .textquehago{
+    padding-top: 20px;
   }
   
   .carousel__elemento {
@@ -678,6 +685,10 @@ li, .listabtn{
 .btnpersonales:hover::after{
   transform: translate(-50%, -50%s) scale(1);
   opacity: 1;
+}
+.audio{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* Habilidades técnicas */
 
@@ -1045,7 +1056,7 @@ li, .listabtn{
 .social{
   position: fixed;
   right: 0;
-  top: 200px;
+  top: 120px;
   z-index: 1000;
 }
 .social ul{
