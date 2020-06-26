@@ -27,6 +27,7 @@ function main (){
 // Hablidades técnicas
 
 // Ofimatica
+
 var i = 0;
 function move() {
   if (i == 0) {
@@ -46,7 +47,9 @@ function move() {
     }
   }
 }
+
 // Ai
+
 var i = 0;
 function move2() {
   if (i == 0) {
@@ -66,7 +69,9 @@ function move2() {
     }
   }
 }
+
 // Ps
+
 var i = 0;
 function move3() {
   if (i == 0) {
@@ -86,7 +91,9 @@ function move3() {
     }
   }
 }
+
 // HTML
+
 var i = 0;
 function move4() {
   if (i == 0) {
@@ -106,7 +113,9 @@ function move4() {
     }
   }
 }
+
 // CSS
+
 var i = 0;
 function move5() {
   if (i == 0) {
@@ -126,7 +135,9 @@ function move5() {
     }
   }
 }
+
 // InDesign
+
 var i = 0;
 function move6() {
   if (i == 0) {
@@ -146,7 +157,9 @@ function move6() {
     }
   }
 }
+
 // Animate
+
 var i = 0;
 function move7() {
   if (i == 0) {
@@ -166,7 +179,9 @@ function move7() {
     }
   }
 }
+
 // Protools
+
 var i = 0;
 function move8() {
   if (i == 0) {
@@ -186,7 +201,9 @@ function move8() {
     }
   }
 }
+
 //  Js
+
 var i = 0;
 function move9() {
   if (i == 0) {
@@ -206,7 +223,9 @@ function move9() {
     }
   }
 }
+
 // Git
+
 var i = 0;
 function move10() {
   if (i == 0) {
@@ -226,7 +245,9 @@ function move10() {
     }
   }
 }
+
 // Bootstrap
+
 var i = 0;
 function move11() {
   if (i == 0) {
@@ -249,8 +270,8 @@ function move11() {
 
 // Habiliddes blandas
 
-
 // Creatividad
+
 var i = 0;
 function move12() {
   if (i == 0) {
@@ -270,7 +291,9 @@ function move12() {
     }
   }
 }
+
 // Sociable
+
 var i = 0;
 function move13() {
   if (i == 0) {
@@ -290,7 +313,9 @@ function move13() {
     }
   }
 }
+
 // Acertivo
+
 var i = 0;
 function move14() {
   if (i == 0) {
@@ -310,7 +335,9 @@ function move14() {
     }
   }
 }
+
 // Paciente o adaptable
+
 var i = 0;
 function move15() {
   if (i == 0) {
@@ -330,7 +357,9 @@ function move15() {
     }
   }
 }
+
 // Comunicación
+
 var i = 0;
 function move16() {
   if (i == 0) {
@@ -350,7 +379,9 @@ function move16() {
     }
   }
 }
+
 // Cultura empresarial
+
 var i = 0;
 function move17() {
   if (i == 0) {
@@ -370,7 +401,9 @@ function move17() {
     }
   }
 }
+
 // Servicio al cliente
+
 var i = 0;
 function move18() {
   if (i == 0) {
@@ -390,7 +423,9 @@ function move18() {
     }
   }
 }
+
 // Inteligencia emocional
+
 var i = 0;
 function move19() {
   if (i == 0) {
@@ -410,7 +445,9 @@ function move19() {
     }
   }
 }
+
 //  Productividad
+
 var i = 0;
 function move20() {
   if (i == 0) {
@@ -430,7 +467,9 @@ function move20() {
     }
   }
 }
+
 // Git
+
 var i = 0;
 function move21() {
   if (i == 0) {
@@ -450,7 +489,9 @@ function move21() {
     }
   }
 }
+
 // Bootstrap
+
 var i = 0;
 function move22() {
   if (i == 0) {
@@ -533,7 +574,9 @@ window.addEventListener('load', function(){
     });
   }, false);
 })();
+
 // btn enviar
+
 function myFunction() {
   alert("Tu mensaje ha sido enviado");
 }

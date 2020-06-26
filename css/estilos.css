@@ -92,6 +92,7 @@ header nav ul li .children li{
 nav img{
   width: 50px;
 }
+
 /* media queries */
 
 @media screen and (max-width: 890px){
@@ -224,6 +225,7 @@ nav img{
 /* Body */
 
 /* Frase */
+
 #frase{
     margin-top: 100px;
     background-color: var(--colorrojo);
@@ -238,7 +240,9 @@ nav img{
     font-size: 30px;
     font-weight: bold;
 }
+
 /* autobiografía */
+
 #titulo{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -260,7 +264,9 @@ nav img{
     padding: 25px 30px;
     font-size: 18px;
 }
+
 /* Perfil profesional */
+
 .flip-card {
   background-color: transparent;
   width: 40%;
@@ -303,7 +309,9 @@ nav img{
 .textperfil{
   margin-top: 35px;
 }
+
 /* Hobbies */
+
 .video {
   margin-top: 20px;
   width: 100%;
@@ -316,6 +324,7 @@ nav img{
 }
 
 /* Habilidades */
+
 .tithabilidades{
   margin: 15px 20px;
   margin-bottom: 50px;
@@ -346,6 +355,387 @@ h3 {
   width: 100%;
   z-index: 10;
 }
+/* Habilidades técnicas */
+
+/* ofimática */
+
+#myProgress {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+} 
+#myBar {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Ai */
+
+#myProgress2 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar2 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Ps */
+
+#myProgress3 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar3 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* HTML */
+
+#myProgress4 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar4 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* CSS */
+
+#myProgress5 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar5 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* InDesign */
+
+#myProgress6 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar6 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Animate */
+
+#myProgress7 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar7 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Protools */
+
+#myProgress8 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar8 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Js */
+
+#myProgress9 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar9 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Git */
+
+#myProgress10 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar10 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Bootstrap */
+
+#myProgress11 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar11 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Habiliaddes blandas */
+
+/* Ofimática */
+#myProgress12 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar12 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Ai */
+
+#myProgress13 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar13 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Ps */
+
+#myProgress14 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar14 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* HTML */
+
+#myProgress15 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#myBar15 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* CSS */
+
+#myProgress16 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar16 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* InDesign */
+
+#myProgress17 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar17 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Animate */
+
+#myProgress18 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar18 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Protools */
+
+#myProgress19 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar19 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Js */
+
+#myProgress20 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar20 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Git */
+
+#myProgress21 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar21 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Bootstrap */
+
+#myProgress22 {
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#myBar22 {
+  width: 5%;
+  height: 20px;
+  background-color: var(--colorrojo);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+#myBar22 {
+margin-bottom: 20px;
+}
+
 /* Formacion */
 
 .textoformacion{
@@ -369,9 +759,9 @@ h3 {
 	margin: auto;
 }
 
-  /* contenedor principal */
+/* contenedor principal */
 
-  .contenido-principal {
+.contenido-principal {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -393,11 +783,12 @@ h3 {
     line-height: 30px;
     color: black;
   }
+
   /* Carousel que hago */
+
   .carousel__contenedor {
     position: relative;
   }
-  
   .carousel__anterior, .carousel__siguiente {
     position: absolute;
     display: block;
@@ -413,29 +804,23 @@ h3 {
     opacity: 70%;
     z-index: 900;
   }
-  
   .carousel__anterior:hover, .carousel__siguiente:hover {
     opacity: 100%;
   }
-  
   .carousel__anterior {
     left: -25px;
     font-size: 30px;
   }
-  
   .carousel__siguiente {
     right: -25px;
     font-size: 30px;
   }
-  
   .carousel__lista {
     overflow: hidden;
   }
-
   .textquehago{
     padding-top: 20px;
   }
-  
   .carousel__elemento {
     text-align: center;
   }
@@ -447,12 +832,10 @@ h3 {
     opacity: .5;
     border-radius: 0;
   }
-  
   .carousel__indicadores .glider-dot:hover {
     opacity: 1;
     background-color: var(--colorrojo);
   }
-  
   .carousel__indicadores .glider-dot.active {
     background-color: var(--colorrojo);
     opacity: 1;
@@ -485,6 +868,7 @@ h3 {
   }
 
   /* Proyectos */
+
 .titproyectos{
   margin-bottom: 40px;
   font-family: 'Roboto', sans-serif;
@@ -496,6 +880,7 @@ h3 {
   padding: 10px;
 }
 /* Sta. Empanada */
+
 .btnempanada{
   margin: 10px;
   margin-bottom: 50px !important;
@@ -516,7 +901,6 @@ h3 {
   cursor: pointer;
   position: relative;
   border-radius: 5px;
-  
 }
 .btnempanada::before{
   content: 'Proyecto';
@@ -530,7 +914,6 @@ h3 {
   font-weight: bold;
   transition: .2s ease;
 }
-
 .btnempanada::after{
   content: 'Sta. Empanada';
   position: absolute;
@@ -544,17 +927,17 @@ h3 {
   transition: .2s ease;
   opacity: 0;
 }
-
 .btnempanada:hover::before{
   transform: translate(-50%, -50%s) scale(3);
   opacity: 0;
 }
-
 .btnempanada:hover::after{
   transform: translate(-50%, -50%s) scale(1);
   opacity: 1;
 }
+
 /* 9 mockups */
+
 .btnmockups{
   margin: 10px;
   margin-bottom: 50px !important;
@@ -575,7 +958,6 @@ h3 {
   cursor: pointer;
   position: relative;
   border-radius: 5px;
-  
 }
 .btnmockups::before{
   content: 'Proyecto';
@@ -589,7 +971,6 @@ h3 {
   font-weight: bold;
   transition: .2s ease;
 }
-
 .btnmockups::after{
   content: '9 Mockups';
   position: absolute;
@@ -603,12 +984,10 @@ h3 {
   transition: .2s ease;
   opacity: 0;
 }
-
 .btnmockups:hover::before{
   transform: translate(-50%, -50%s) scale(3);
   opacity: 0;
 }
-
 .btnmockups:hover::after{
   transform: translate(-50%, -50%s) scale(1);
   opacity: 1;
@@ -616,7 +995,9 @@ h3 {
 li, .listabtn{
   list-style: none;
 }
+
 /* Fotografía */
+
 #carouselExampleCaptions {
   width: 40%;
   height: 8%;
@@ -627,7 +1008,9 @@ li, .listabtn{
 .carousel-item h5{
   padding-top: 10px;
 }
+
 /* Personales */
+
 .btnpersonales{
   margin: 10px;
   margin-bottom: 50px !important;
@@ -648,7 +1031,6 @@ li, .listabtn{
   cursor: pointer;
   position: relative;
   border-radius: 5px;
-  
 }
 .btnpersonales::before{
   content: 'Proyectos';
@@ -662,7 +1044,6 @@ li, .listabtn{
   font-weight: bold;
   transition: .2s ease;
 }
-
 .btnpersonales::after{
   content: 'Personales';
   position: absolute;
@@ -676,12 +1057,10 @@ li, .listabtn{
   transition: .2s ease;
   opacity: 0;
 }
-
 .btnpersonales:hover::before{
   transform: translate(-50%, -50%s) scale(3);
   opacity: 0;
 }
-
 .btnpersonales:hover::after{
   transform: translate(-50%, -50%s) scale(1);
   opacity: 1;
@@ -689,366 +1068,6 @@ li, .listabtn{
 .audio{
   margin-top: 50px;
   margin-bottom: 50px;
-}
-/* Habilidades técnicas */
-
-/* ofimática */
-#myProgress {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Ai */
-  #myProgress2 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
- 
-#myBar2 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
- /* Ps */
-  #myProgress3 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar3 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* HTML */
-  #myProgress4 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar4 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* CSS */
-  #myProgress5 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar5 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* InDesign */
-  #myProgress6 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar6 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Animate */
-  #myProgress7 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar7 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Protools */
-  #myProgress8 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar8 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Js */
-  #myProgress9 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar9 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Git */
-  #myProgress10 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar10 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Bootstrap */
-  #myProgress11 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar11 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-
-  /* Habiliaddes blandas */
-
-  /* Ofimática */
-  #myProgress12 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar12 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Ai */
-  #myProgress13 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
- 
-#myBar13 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
- /* Ps */
-  #myProgress14 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar14 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* HTML */
-  #myProgress15 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar15 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* CSS */
-  #myProgress16 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar16 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* InDesign */
-  #myProgress17 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar17 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Animate */
-  #myProgress18 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar18 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Protools */
-  #myProgress19 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar19 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Js */
-  #myProgress20 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar20 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Git */
-  #myProgress21 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar21 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-  }
-/* Bootstrap */
-  #myProgress22 {
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-#myBar22 {
-    width: 5%;
-    height: 20px;
-    background-color: var(--colorrojo);
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    border-radius: 20px;
-}
-#myBar22 {
-  margin-bottom: 20px;
 }
 
 /* Contactos */
@@ -1124,6 +1143,9 @@ li, .listabtn{
 .social ul li a:hover{
   padding: 0px 20px 0px 0px;
 }
+
+/* Footer */
+
 footer{
   background-color: var(--colorrojo);
   text-align: center;
@@ -1139,6 +1161,9 @@ footer div a{
 footer div a:hover{
   color: white;
 }
+
+/* Formulario */
+
 .input{
   padding: 50px 80px;
 }
