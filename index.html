@@ -17,9 +17,10 @@
     } 
     setTimeout ("redireccionar()", 4000); //tiempo expresado en milisegundos
 </script>
-<body style="background-color: #EF1D32;">
+<body style="background-color: #EF1D32; overflow: hidden;">
     <style>
         .img{
+            animation-duration: 1.3s;
             position: absolute;
             z-index: 1;
             animation-delay: 1s;
@@ -28,6 +29,7 @@
             -o-animation-delay: 1s;
         }
         .img1{
+            animation-duration: 1.3s;
             position: absolute;
             z-index: 2;
             animation-delay: 1.5s;
@@ -36,14 +38,16 @@
             -o-animation-delay: 1.5s;
         }
         .img2{
+            animation-duration: 1.3s;
             position: absolute;
             z-index: 3;
             animation-delay: 2s;
             -webkit-animation-delay: 2s;
             -moz-animation-delay: 2s;
-            -o-animation-delay: 2s;
+            -o-animation-delay: 1.5s;
         }
         .img3{
+            animation-duration: 1.3s;
             position: absolute;
             z-index: 4;
             animation-delay: 2.5s;
@@ -53,12 +57,10 @@
         }
     </style>
     <div>
-        <div>
-            <img class="img animate__animated animate__bounceInUp" src="images2/jh.svg">
-            <img class="img1 animate__animated animate__fadeInRight" src="images2/juan.svg">
-            <img class="img2 animate__animated animate__fadeInRight" src="images2/herrera.svg">
-            <img class="img3 animate__animated animate__lightSpeedInRight" src="images2/tagline.svg">
-        </div>
+        <img class="img animate__animated animate__bounceInUp" src="images2/jh.svg">
+        <img class="img1 animate__animated animate__fadeInRight" src="images2/juan.svg">
+        <img class="img2 animate__animated animate__fadeInRight" src="images2/herrera.svg">
+        <img class="img3 animate__animated animate__lightSpeedInRight" src="images2/tagline.svg">
     </div>
 </body>
 </html>
