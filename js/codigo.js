@@ -24,6 +24,30 @@ function main (){
     });
 }
 
+// Animación texto
+
+const typed = new Typed('.typed', {
+          //  strings: ['<i class="textoanimado">Ilustración digital</i>',
+          //   '<i class="textoanimado">Fotografía</i>',
+          //   '<i class="textoanimado">Edición de imagen</i>',
+          //   '<i class="textoanimado">Animación</i>',
+          //   '<i class="textoanimado">Audiovisual</i>', 
+          //   '<i class="textoanimado">Desarrollo web</i>', 
+          //   '<i class="textoanimado">Identidad corporativa</i>'
+          // ],
+          stringsElement: '#cadenas-texto',
+          typeSpeed: 50,
+          backSpeed: 50,
+          startDelay: 300,
+          smartBackspace: true,
+          shuffle: false,
+          backDelay: 500,
+          loop: true,
+          loopCount: false,
+          showCursor: true,
+          contentType: 'html'
+});
+
 // Hablidades técnicas
 
 // Ofimatica

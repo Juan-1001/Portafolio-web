@@ -1,6 +1,7 @@
 :root{
   --colorazul: #3FBEEA;
   --colorrojo: #EF1D32;
+  --colornaranja: #F2632A;
   --font-family: 'Roboto', sans-serif;
 }
 *{
@@ -241,6 +242,14 @@ nav img{
     font-weight: bold;
 }
 
+/* Animación texto */
+
+.textoanimado{
+  font-weight: bold;
+  color: var(--colorazul);
+  font-style: normal;
+}
+
 /* autobiografía */
 
 #titulo{
@@ -317,7 +326,7 @@ nav img{
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: var(--colorazul);
+  background: var(--colornaranja);
   border: none;
   cursor: pointer;
   position: relative;
@@ -340,7 +349,7 @@ nav img{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: var(--colorrojo);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -946,7 +955,7 @@ margin-bottom: 20px;
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: var(--colorazul);
+  background: var(--colornaranja);
   border: none;
   cursor: pointer;
   position: relative;
@@ -969,7 +978,7 @@ margin-bottom: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: var(--colorrojo);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -1003,7 +1012,7 @@ margin-bottom: 20px;
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: var(--colorazul);
+  background: var(--colornaranja);
   border: none;
   cursor: pointer;
   position: relative;
@@ -1026,7 +1035,7 @@ margin-bottom: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: var(--colorrojo);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -1076,7 +1085,7 @@ li, .listabtn{
   margin-bottom: 50px !important;
   width: 120px;
   height: 50px;
-  background: var(--colorazul);
+  background: var(--colornaranja);
   border: none;
   cursor: pointer;
   position: relative;
@@ -1099,7 +1108,7 @@ li, .listabtn{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: var(--colorrojo);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   transition: .2s ease;
@@ -1162,7 +1171,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-whatsapp:hover{
-  background-color: var(--colorrojo);
+  background-color: var(--colornaranja);
 }
 .social ul li .fa-facebook-f {
   background-color: #3b5998;
@@ -1171,7 +1180,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li .fa-facebook-f:hover{
-  background-color: var(--colorrojo);
+  background-color: var(--colornaranja);
 }
 .social ul li .fa-instagram {
   background-color: #dd2a7b;
@@ -1180,16 +1189,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-instagram:hover{
-  background-color: var(--colorrojo);
-}
-.social ul li .fa-twitter {
-  background-color: #00acee;
-  padding: 15px;
-  margin-left: -5px;
-  margin-right: 10px;
-}
-.social ul li a .fa-twitter:hover{
-  background-color: var(--colorrojo);
+  background-color: var(--colornaranja);
 }
 .social ul li .fa-pinterest-p {
   background-color: #bd081c;
@@ -1198,7 +1198,7 @@ li, .listabtn{
   margin-right: 10px;
 }
 .social ul li a .fa-pinterest-p:hover{
-  background-color: var(--colorrojo);
+  background-color: var(--colornaranja);
 }
 .social ul li a:hover{
   padding: 0px 20px 0px 0px;
