@@ -185,7 +185,7 @@ nav img {
 }
 
 /* media queries */
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 950px) {
   body {
     padding-top: 70px;
   }
@@ -244,6 +244,9 @@ nav img {
   nav img {
     display: none;
   }
+  .switch{
+    margin: 20px 0px 0px 10px;
+  }
   div article p #frase {
     margin-top: 20px;
   }
@@ -268,6 +271,9 @@ nav img {
 @media screen and (max-width: 810px) {
   header nav {
     margin-top: 27px !important;
+  }
+  .switch{
+    margin: 20px 0px 0px 10px;
   }
   .textoformacion {
     margin-left: 10px !important;
