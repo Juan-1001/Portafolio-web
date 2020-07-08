@@ -7,4 +7,5 @@
     $pedido = $_POST["pedido"];
     $contenido = "Nombre: " . $nombre "\nCorreo: " . $correo . "\nNúmero: " . $numero   . "\nMensaje" . $mensaje . "\nPedido" . $pedido;
     mail($destino, "Contacto", $contenido);
+    header("Location:index.html");
 ?>
