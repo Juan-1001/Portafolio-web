@@ -659,9 +659,3 @@ function showSlides(n) {
     });
   }, false);
 })();
-
-// btn enviar
-
-function myFunction() {
-  alert("Tu mensaje ha sido enviado correctamente");
-}
