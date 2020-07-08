@@ -185,7 +185,7 @@ nav img {
 }
 
 /* media queries */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 890px) {
   body {
     padding-top: 70px;
   }
@@ -244,9 +244,6 @@ nav img {
   nav img {
     display: none;
   }
-  .switch{
-    margin: 20px 0px 0px 10px;
-  }
   div article p #frase {
     margin-top: 20px;
   }
@@ -271,9 +268,6 @@ nav img {
 @media screen and (max-width: 810px) {
   header nav {
     margin-top: 27px !important;
-  }
-  .switch{
-    margin: 20px 0px 0px 10px;
   }
   .textoformacion {
     margin-left: 10px !important;
@@ -1522,6 +1516,71 @@ body.dark .btnpersonales:hover {
   opacity: 1;
 }
 
+/* Galería */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  margin-top: 50px;
+  display: none;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+.mySlides > img {
+  width: 30%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: var(--colorazul);
+  padding: auto;
+  margin: 20px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 42%;
+}
+
+body.dark .caption-container {
+  background-color: #39a7cc;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 14.2%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.7;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.row > .column {
+  margin-bottom: 50px;
+}
+
 .audio {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -1656,5 +1715,6 @@ body.dark .btnformulario {
 
 body.dark .btnformulario:hover {
   background-color: #da1428;
+  color: white;
 }
 /*# sourceMappingURL=estilos.css.map */
