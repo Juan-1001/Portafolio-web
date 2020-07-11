@@ -241,6 +241,16 @@
       .social{
         display: none;
       }
+      .switch{
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+      }
+      .mySlides > img{
+        width: 50% !important;
+      }
+      .caption-container{
+        width: 70% !important;
+      }
   }
   @media screen and (max-width: 810px){
     header nav{
@@ -264,6 +274,16 @@
     }
     .flip-card{
       width: 90% !important;
+    }
+    .switch{
+      margin-top: 10px !important;
+      margin-left: 10px !important;
+    }
+    .mySlides > img{
+      width: 70% !important;
+    }
+    .caption-container{
+      width: 70% !important;
     }
   }
   @keyframes h3{
