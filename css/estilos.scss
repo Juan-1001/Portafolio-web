@@ -27,6 +27,13 @@
           background-color: $dark;
       }
   }
+ .texto::selection, h3::selection, h1::selection, p::selection {
+    background: orange;
+
+    &.dark{
+      background-color: darkorange;
+  }
+  }
   .menu_bar{
       display: none;
   }

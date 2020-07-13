@@ -25,6 +25,22 @@ body.dark {
   background-color: #011826;
 }
 
+.texto::-moz-selection, h3::-moz-selection, h1::-moz-selection, p::-moz-selection {
+  background: orange;
+}
+
+.texto::selection, h3::selection, h1::selection, p::selection {
+  background: orange;
+}
+
+.texto::-moz-selection.dark, h3::-moz-selection.dark, h1::-moz-selection.dark, p::-moz-selection.dark {
+  background-color: darkorange;
+}
+
+.texto::selection.dark, h3::selection.dark, h1::selection.dark, p::selection.dark {
+  background-color: darkorange;
+}
+
 .menu_bar {
   display: none;
 }
@@ -185,7 +201,7 @@ nav img {
 }
 
 /* media queries */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 890px) {
   body {
     padding-top: 70px;
   }
@@ -263,14 +279,14 @@ nav img {
   .social {
     display: none;
   }
-  .switch{
+  .switch {
     margin-top: 10px !important;
     margin-left: 10px !important;
   }
-  .mySlides > img{
+  .mySlides > img {
     width: 50% !important;
   }
-  .caption-container{
+  .caption-container {
     width: 70% !important;
   }
 }
@@ -298,14 +314,14 @@ nav img {
   .flip-card {
     width: 90% !important;
   }
-  .switch{
+  .switch {
     margin-top: 10px !important;
     margin-left: 10px !important;
   }
-  .mySlides > img{
+  .mySlides > img {
     width: 70% !important;
   }
-  .caption-container{
+  .caption-container {
     width: 70% !important;
   }
 }
